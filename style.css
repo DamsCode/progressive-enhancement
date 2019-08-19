@@ -9,9 +9,15 @@ td {
     padding: 10px;
 }
 
-.bien {}
+.bien {
+    text-transform: uppercase;
+    color: green;
+}
 
-.mal {}
+.mal {
+    text-transform: uppercase;
+    color: red;
+}
 
 body {
     background-color: cadetblue;
@@ -61,4 +67,28 @@ body {
 
 #elemj {
     background-color: yellow;
+}
+
+#pair {
+    background-color: grey;
+}
+
+#imp {
+    background-color: white;
+}
+
+li:nth-child(1) {
+    list-style-image: url(img/bien.png);
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+
+li:nth-child(2) {
+    list-style-image: url(img/mal.png);
+    background-repeat: no-repeat;
+}
+
+li:nth-child(3) {
+    list-style-image: url(img/chat.png);
+    background-repeat: no-repeat;
 }
