@@ -36,4 +36,29 @@ body {
     border-left-style: solid;
     margin-top: 80px;
     margin-bottom: 80px;
+    font-style: italic;
+}
+
+#person {
+    border-left-color: blue;
+}
+
+#person2 {
+    border-left-color: aqua;
+}
+
+#person3 {
+    border-left-color: black;
+}
+
+#person4 {
+    border-left-color: crimson;
+}
+
+#person5 {
+    border-left-color: blueviolet;
+}
+
+#elemj {
+    background-color: yellow;
 }
