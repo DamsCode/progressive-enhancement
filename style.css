@@ -12,3 +12,28 @@ td {
 .bien {}
 
 .mal {}
+
+body {
+    background-color: cadetblue;
+    max-width: 90%;
+    margin: 20px;
+    font-family: Apple Chancery, cursive;
+    line-height: 40px;
+    background: -webkit-linear-gradient(90deg, rgb(151, 184, 213), rgb(5, 26, 46));
+    background: linear-gradient(90deg, rgb(151, 184, 213), rgb(5, 26, 46));
+    background-image: url(https://chine.in/images/2019/d2d79447ba91794d6715305b37541f6a.JPG);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+.citation {
+    width: 50%;
+    font-size: 160%;
+    margin-left: 25%;
+    border-left: 3px;
+    border-left-color: sienna;
+    border-left-style: solid;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
