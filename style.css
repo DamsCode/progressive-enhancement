@@ -43,6 +43,7 @@ body {
     margin-top: 80px;
     margin-bottom: 80px;
     font-style: italic;
+    border-style:
 }
 
 #person {
@@ -69,11 +70,11 @@ body {
     background-color: yellow;
 }
 
-#pair {
+.pair {
     background-color: grey;
 }
 
-#imp {
+.imp {
     background-color: white;
 }
 
@@ -91,4 +92,9 @@ li:nth-child(2) {
 li:nth-child(3) {
     list-style-image: url(img/chat.png);
     background-repeat: no-repeat;
+}
+
+img {
+    float: left;
+    margin: 10px;
 }
